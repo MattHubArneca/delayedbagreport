@@ -352,7 +352,7 @@ function SubmitItemPage() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/delayedbagreport">
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/contact" element={<ContactPage />} />
