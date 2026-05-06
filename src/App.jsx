@@ -63,12 +63,12 @@ function Layout({ children }) {
         <div className="container nav-wrap">
           <Link to="/" className="logo">
             <ConciergeBell size={18} />
-            ReturnFlow
+            Delayed Baggage Report
           </Link>
           <nav className="main-nav">
             <NavLink to="/">Home</NavLink>
             <NavLink to="/contact">Contact</NavLink>
-            <NavLink to="/submit-item">Report Lost Item</NavLink>
+            {/* <NavLink to="/submit-item">Report Lost Item</NavLink> */}
           </nav>
           <Link to="/contact" className="btn btn-primary">
             Book a Demo
@@ -81,10 +81,10 @@ function Layout({ children }) {
       </Link>
       <footer className="site-footer">
         <div className="container footer-inner">
-          <p>ReturnFlow - Lost & Found Management Platform</p>
+          <p>Delayed Baggage Report - Lost & Found Management Platform</p>
           <div className="footer-links">
-            <Link to="/contact">Book a Demo</Link>
-            <Link to="/submit-item">Report Lost Item</Link>
+            {/* <Link to="/contact">Book a Demo</Link> */}
+            {/* <Link to="/submit-item">Report Lost Item</Link> */}
           </div>
         </div>
       </footer>
@@ -99,7 +99,8 @@ function LandingPage() {
         <div className="container hero-grid">
           <div>
             <p className="eyebrow">Reduce claim handling time by up to 60%</p>
-            <h1>Recover Lost Items Faster with Smart Automation</h1>
+            <h1>Delayed Baggage Report</h1>
+            <h3>Recover Lost Items Faster with Smart Automation</h3>
             <p className="lead">
               Replace manual processes with one streamlined system that improves return
               rates, cuts operational overhead, and creates a better customer
@@ -109,9 +110,9 @@ function LandingPage() {
               <Link to="/contact" className="btn btn-primary">
                 Book a Demo
               </Link>
-              <Link to="/submit-item" className="btn btn-secondary">
+              {/* <Link to="/submit-item" className="btn btn-secondary">
                 Report Lost Item
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className="hero-card">
@@ -133,7 +134,7 @@ function LandingPage() {
 
       <section className="section">
         <div className="container">
-          <h2>Why teams choose ReturnFlow</h2>
+          <h2>Why teams choose Delayed Baggage Report</h2>
           <div className="card-grid four">
             {benefits.map((item) => (
               <article key={item.title} className="card">
